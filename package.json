@@ -2,10 +2,28 @@
   "dependencies": {
     "axios": "^1.13.4",
     "cookie-parser": "^1.4.7",
-    "dotenv": "^17.2.3",
+    "cookie-session": "^2.1.1",
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "express-session": "^1.19.0",
     "jsonwebtoken": "^9.0.3",
-    "jwks-rsa": "^3.2.2"
-  }
+    "jwks-rsa": "^3.2.2",
+    "node-fetch": "^2.7.0"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-davidseax:DavidSeaX/LitExplorers-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }
